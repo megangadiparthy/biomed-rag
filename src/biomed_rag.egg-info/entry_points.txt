@@ -1,0 +1,2 @@
+[console_scripts]
+biomed-rag = biomed_rag.__main__:main

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/qdrant/
+data/index/
+data/pubmed.jsonl
+data/pubmed.meta.json
+.DS_Store

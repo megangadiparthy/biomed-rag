@@ -1,0 +1,17 @@
+{
+  "docs": 100000,
+  "passages": 100000,
+  "queries": 200,
+  "embedder": "hashing",
+  "dim": 128,
+  "candidate_k": 40,
+  "top_k": 8,
+  "rerank": false,
+  "qdrant": "embedded exact scan. A server collection uses HNSW m=16, ef=64.",
+  "p50_ms": 26.691250037401915,
+  "p95_ms": 27.701916871592402,
+  "p99_ms": 28.98504096083343,
+  "dense_p95_ms": 27.356167091056705,
+  "sparse_p95_ms": 0.3296250943094492,
+  "note": "Synthetic abstracts. This is index latency, not medical relevance."
+}

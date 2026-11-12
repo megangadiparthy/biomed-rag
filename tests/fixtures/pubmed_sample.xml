@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation>
+      <PMID Version="1">12345</PMID>
+      <Article>
+        <Journal>
+          <Title>Sleep Medicine</Title>
+          <JournalIssue>
+            <PubDate><Year>2021</Year></PubDate>
+          </JournalIssue>
+        </Journal>
+        <ArticleTitle>Short sleep and <i>next-day</i> flares.</ArticleTitle>
+        <Abstract>
+          <AbstractText Label="BACKGROUND">Sleep loss is common.</AbstractText>
+          <AbstractText Label="RESULTS">Short sleep preceded flares.</AbstractText>
+        </Abstract>
+        <AuthorList>
+          <Author>
+            <LastName>Ng</LastName>
+            <ForeName>A</ForeName>
+          </Author>
+          <Author>
+            <CollectiveName>Example Study Group</CollectiveName>
+          </Author>
+        </AuthorList>
+      </Article>
+      <MeshHeadingList>
+        <MeshHeading>
+          <DescriptorName UI="D0001">Psoriasis</DescriptorName>
+        </MeshHeading>
+      </MeshHeadingList>
+    </MedlineCitation>
+  </PubmedArticle>
+</PubmedArticleSet>

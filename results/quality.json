@@ -1,0 +1,83 @@
+{
+  "k": 5,
+  "queries": 5,
+  "recall": 1.0,
+  "rows": [
+    {
+      "query": "short sleep psoriasis flare",
+      "expected": [
+        "demo-psor-1",
+        "demo-psor-2"
+      ],
+      "found": [
+        "demo-bp-2",
+        "demo-psor-1",
+        "demo-psor-2",
+        "demo-ssri-1",
+        "demo-ssri-2"
+      ],
+      "recall": 1.0
+    },
+    {
+      "query": "metformin insulin sensitivity",
+      "expected": [
+        "demo-met-1",
+        "demo-met-2"
+      ],
+      "found": [
+        "demo-met-1",
+        "demo-met-2",
+        "demo-psor-1",
+        "demo-psor-2",
+        "demo-ssri-2"
+      ],
+      "recall": 1.0
+    },
+    {
+      "query": "brca1 contralateral breast",
+      "expected": [
+        "demo-brca-1",
+        "demo-brca-2"
+      ],
+      "found": [
+        "demo-brca-1",
+        "demo-brca-2",
+        "demo-met-2",
+        "demo-ssri-1",
+        "demo-ssri-2"
+      ],
+      "recall": 1.0
+    },
+    {
+      "query": "systolic blood pressure stroke",
+      "expected": [
+        "demo-bp-1",
+        "demo-bp-2"
+      ],
+      "found": [
+        "demo-bp-1",
+        "demo-bp-2",
+        "demo-met-2",
+        "demo-ssri-1",
+        "demo-ssri-2"
+      ],
+      "recall": 1.0
+    },
+    {
+      "query": "ssri major depression",
+      "expected": [
+        "demo-ssri-1",
+        "demo-ssri-2"
+      ],
+      "found": [
+        "demo-bp-1",
+        "demo-bp-2",
+        "demo-brca-2",
+        "demo-ssri-1",
+        "demo-ssri-2"
+      ],
+      "recall": 1.0
+    }
+  ],
+  "note": "Labeled synthetic abstracts in data/demo.jsonl. Not a PubMed benchmark."
+}
